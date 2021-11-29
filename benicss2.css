@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+	
+.cím{
+	max-width: 100%;
+	color: white;
+	padding: 6vh 0px 3vh 3vh;
+	background-image: url(háttér.jpg);
+	font-size: 500%;
+	font-family: Copperplate Gothic Light;
+}
+.menu0{
+	border: 3px solid white;
+	background-color: dimgray;
+	padding: 10px;
+	font-family: Copperplate Gothic Light;
+	color: white;
+}
+.menu0:hover{
+		cursor: pointer;
+		background-color: aqua;
+		color: black;
+}
+
+.menu1{
+	border: 3px solid white;
+	background-color: dimgray;
+	padding: 10px;	
+	font-family: Copperplate Gothic Light;
+	color: white;
+}
+.menu1:hover{
+		cursor: pointer;
+		background-color: aqua;
+		color: black;
+}
+
+.menu2{
+	border: 3px solid white;
+	background-color: dimgray;
+	padding: 10px;
+	font-family: Copperplate Gothic Light;
+	color: white;
+}
+.menu2:hover{
+		cursor: pointer;
+		background-color: aqua;
+		color: black;
+}
+
+.menu3{
+	border: 3px solid white;
+	background-color: dimgray;
+	padding: 10px;
+	font-family: Copperplate Gothic Light;
+	color: white;
+}
+.menu3:hover{
+		cursor: pointer;
+		background-color: aqua;
+		color: black;
+}
+.menu{
+			display: grid;
+			grid-template-columns:1fr 1fr 1fr 1fr;
+			grid-template-areas: 
+				". menu0 . menu1 . menu2 . menu3 .";
+			flex-grow: 1; 
+			text-align: center;
+		} 
+
+	.bg{
+		background-image: url(háttér2.jpg);
+		height: 120%;
+	}
+	.kartya_pozicionalt{
+		position: relative;
+		overflow: hidden;
+		padding: 0;
+		margin:.5rem 0;
+	}
+	.kartya_pozicionalt img{
+		margin: 15px 0px;
+		max-height: 21rem;
+		border-radius: 10px;
+	}
+
+	.kartya_pozicionalt p{
+		position: absolute;
+		bottom: -100%;
+		left:0;
+		width: 100%;
+		padding: .2rem .2rem .2rem .5rem;
+		text-align: left;
+		background-color: rgba(255,255,255,.7);
+		transition: .3s;
+	}
+	.kartya_pozicionalt:hover p{
+		bottom:0;
+	}
+	.kartya_pozicionalt span{
+		position: absolute;
+		top: -100%;
+		left:0;
+		width: 100%;
+		padding: .2rem .2rem .2rem .5rem;
+		text-align: left;
+		background-color: rgba(255,255,255,.7);
+		transition: .3s;
+	}
+	.kartya_pozicionalt:hover span{
+		top:0;
+	}
+
+.flex1{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+.flex_egyenletesen{
+	justify-content: space-around;
+}
+
+
+
+.menuk{
+	text-decoration: none;
+	color: white;
+	font-family: Copperplate Gothic Light;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
